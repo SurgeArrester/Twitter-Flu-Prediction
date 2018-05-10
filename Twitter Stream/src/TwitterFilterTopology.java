@@ -23,10 +23,10 @@ import twitter4j.conf.*;
  */
 public class TwitterFilterTopology {
 
-    private static String consumerKey = "";
-    private static String consumerSecret = "";
-    private static String accessToken = "";
-    private static String accessTokenSecret = "";
+    private static String consumerKey = " ";
+    private static String consumerSecret = " ";
+    private static String accessToken = " ";
+    private static String accessTokenSecret = " ";
 
     private static List<String> readCsvToArray(String fileLocation) throws IOException {
         String city = "";
